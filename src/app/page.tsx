@@ -27,7 +27,7 @@ export default function LandingPage() {
                 >
                     <h1 className="text-[18vw] font-black uppercase tracking-tighter leading-[0.75] text-white">
                         GEM<br />
-                        <span className="text-stroke">DYNAMICS</span><span className="text-[#ff3e00]">.</span>
+                        DYNAMICS<span className="text-[#ff3e00]">.</span>
                     </h1>
                     <p className="mt-16 text-[#666] text-xl md:text-2xl font-medium tracking-[0.2em] uppercase max-w-4xl mx-auto">
                         Architecting the future of human-agent symbiosis.
