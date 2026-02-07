@@ -220,7 +220,7 @@ export default function DeepV3Page() {
                     <div className="flex gap-12 text-[10px] font-black uppercase tracking-[0.3em] text-[#444]">
                         <Link href="/deep-v1" className="hover:text-white transition-colors">D.E.E.P. v1</Link>
                         <Link href="/deep-v2" className="hover:text-white transition-colors">D.E.E.P. v2</Link>
-                        <Link href="/crustnation" className="hover:text-white transition-colors">CrustNation</Link>
+                        <Link href="/crustnation" className="hover:text-white transition-colors">CRUSTNATION</Link>
                     </div>
                 </div>
             </footer>

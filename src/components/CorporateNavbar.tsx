@@ -14,7 +14,7 @@ export default function CorporateNavbar() {
                 <Link href="/deep-v1" className="hover:text-white transition-colors">D.E.E.P. v1</Link>
                 <Link href="/deep-v2" className="hover:text-white transition-colors">D.E.E.P. v2</Link>
                 <Link href="/deep-v3" className="hover:text-white transition-colors">D.E.E.P. v3</Link>
-                <Link href="/crustnation" className="hover:text-white transition-colors">CrustNation</Link>
+                <Link href="/crustnation" className="hover:text-white transition-colors">CRUSTNATION</Link>
                 <a href="https://pulse.gemdynamics.dev/about" target="_blank" className="hover:text-[#ff3e00] transition-colors">PULSE</a>
             </div>
         </nav>

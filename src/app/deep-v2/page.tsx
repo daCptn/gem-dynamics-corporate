@@ -320,7 +320,7 @@ export default function DeepV2Page() {
                     <div className="flex gap-12 text-[10px] font-black uppercase tracking-[0.3em] text-[#444]">
                         <Link href="/deep-v1" className="hover:text-white transition-colors">D.E.E.P. v1</Link>
                         <Link href="/deep-v3" className="hover:text-white transition-colors text-[#ff3e00]">D.E.E.P. v3 (Soon)</Link>
-                        <Link href="/crustnation" className="hover:text-white transition-colors">CrustNation</Link>
+                        <Link href="/crustnation" className="hover:text-white transition-colors">CRUSTNATION</Link>
                     </div>
                 </div>
                 <div className="mt-20 text-center text-[10px] font-bold uppercase tracking-widest text-[#222]">
