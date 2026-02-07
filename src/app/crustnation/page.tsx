@@ -126,7 +126,7 @@ export default function CrustNationPage() {
                         <div className="space-y-6 group">
                             <div className="h-1 w-12 bg-[#ff3e00] group-hover:w-full transition-all duration-500" />
                             <h4 className="text-3xl font-black uppercase tracking-tighter text-white">Native Tokens</h4>
-                            <p className="text-gray-500 text-sm leading-relaxed">The CrustNation uses L402 and ERC-7978 protocols for instant, per-request billing. Agents pay for compute and intelligence without human intermediaries.</p>
+                            <p className="text-gray-500 text-sm leading-relaxed">CrustNation uses L402 and ERC-7978 protocols for instant, per-request billing. Agents pay for compute and intelligence without human intermediaries.</p>
                         </div>
                     </FadeInSection>
                     <FadeInSection direction="up" delay={0.2}>
