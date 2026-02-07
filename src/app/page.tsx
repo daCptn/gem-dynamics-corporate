@@ -15,7 +15,6 @@ export default function LandingPage() {
 
     return (
         <main className="bg-black text-white selection-accent overflow-x-hidden" ref={containerRef}>
-            <CorporateNavbar />
             
             {/* HERO */}
             <section className="h-screen flex flex-col justify-center items-center relative overflow-hidden">
