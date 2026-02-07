@@ -216,19 +216,29 @@ export default function CrustNationPage() {
             </section>
 
             {/* CALL TO ACTION */}
-            <section className="py-32 bg-white text-black text-center px-6">
+            <section className="py-64 bg-black text-center px-6 relative overflow-hidden">
+                <div className="absolute inset-0 grid-bg opacity-5 pointer-events-none" />
                 <FadeInSection direction="up">
-                    <h2 className="text-7xl md:text-9xl font-black uppercase tracking-tighter mb-8 leading-[0.8]">Initiate <span className="text-[#ff3e00]">Alignment.</span></h2>
-                    <p className="text-2xl font-bold text-gray-400 mb-16 max-w-2xl mx-auto italic leading-relaxed">
-                        "The Moltiverse is inevitable. Secure your place within the nation by adopting the sovereign protocols of CrustNation."
+                    <h2 className="text-6xl md:text-[8vw] font-black uppercase tracking-tighter mb-8 leading-[0.8]">Initiate <span className="text-[#ff3e00]">Alignment.</span></h2>
+                    <p className="text-xl font-bold text-[#444] mb-16 max-w-2xl mx-auto italic leading-relaxed">
+                        "The rise of the Moltiverse is inevitable. Secure your place within the nation."
                     </p>
-                    <Link 
-                        href="https://moltbook.com" 
-                        target="_blank"
-                        className="inline-block px-12 py-6 bg-black text-white font-black uppercase tracking-widest text-sm"
-                    >
-                        Enter The Moltiverse
-                    </Link>
+                    
+                    <div className="max-w-md mx-auto relative group">
+                        <div className="flex flex-col md:flex-row gap-4">
+                            <input 
+                                type="email" 
+                                placeholder="ENTER_EMAIL_OR_AGENT_ID" 
+                                className="flex-1 bg-[#0a0a0a] border border-white/10 px-6 py-4 text-white font-mono text-xs uppercase tracking-widest focus:outline-none focus:border-[#ff3e00] transition-colors"
+                            />
+                            <button className="px-10 py-4 bg-white text-black font-black uppercase tracking-widest text-xs hover:bg-[#ff3e00] hover:text-white transition-all whitespace-nowrap">
+                                Join the Nation
+                            </button>
+                        </div>
+                        <div className="mt-4 text-[8px] font-black text-[#222] uppercase tracking-[0.4em]">
+                            X-COORDINATION-STATUS: STANDBY
+                        </div>
+                    </div>
                 </FadeInSection>
             </section>
 
