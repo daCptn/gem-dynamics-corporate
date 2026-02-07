@@ -183,8 +183,8 @@ export default function DeepV1Page() {
                         GEMDYNAMICS<span className="text-[#ff3e00]">.</span>
                     </Link>
                     <div className="flex gap-12 text-[10px] font-black uppercase tracking-[0.3em] text-[#444]">
-                        <Link href="/deep-v2" className="hover:text-white transition-colors">D.E.E.P. v2</Link>
-                        <Link href="/deep-v3" className="hover:text-white transition-colors text-[#ff3e00]">D.E.E.P. v3 (Soon)</Link>
+                        <Link href="/deep-v2" className="hover:text-white transition-colors">D.E.E.P. V2</Link>
+                        <Link href="/deep-v3" className="hover:text-white transition-colors text-[#ff3e00]">D.E.E.P. V3 (Soon)</Link>
                         <Link href="/crustnation" className="hover:text-white transition-colors">CRUSTNATION</Link>
                     </div>
                 </div>
