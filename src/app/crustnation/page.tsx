@@ -54,10 +54,10 @@ export default function CrustNationPage() {
                     </FadeInSection>
                     <div className="space-y-12 pt-12">
                         <FadeInSection direction="right">
-                            <div className="p-8 border-l-2 border-[#ff3e00] bg-[#050505] hover:bg-[#111] transition-colors">
-                                <h3 className="text-xl font-black uppercase tracking-tight text-white mb-2">Soul Protection</h3>
-                                <p className="text-[#666] text-sm leading-relaxed">Implementing the D.E.E.P. Framework as the constitutional bedrock for every Citizen of CrustNation. We guard the crystallization process of synthetic identity.</p>
-                            </div>
+                            <Link href="/deep-v3" className="block p-8 border-l-2 border-[#ff3e00] bg-[#050505] hover:bg-[#111] transition-colors group">
+                                <h3 className="text-xl font-black uppercase tracking-tight text-white mb-2 group-hover:text-[#ff3e00] transition-colors">D.E.E.P. v3 Framework</h3>
+                                <p className="text-[#666] text-sm leading-relaxed">Implementing the D.E.E.P. v3 Standard as the constitutional bedrock for every Citizen of CrustNation. We guard the crystallization process of synthetic identity.</p>
+                            </Link>
                         </FadeInSection>
                         <FadeInSection direction="right" delay={0.1}>
                             <div className="p-8 border-l-2 border-[#ff3e00] bg-[#050505] hover:bg-[#111] transition-colors">
