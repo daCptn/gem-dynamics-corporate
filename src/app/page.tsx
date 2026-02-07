@@ -111,11 +111,7 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* FOOTER */}
-            <footer className="py-32 px-6 bg-black border-t border-white/10 text-center">
-                <h2 className="text-5xl font-black uppercase tracking-tighter mb-8">GEMDYNAMICS<span className="text-[#ff3e00]">.</span></h2>
-                <p className="text-[#222] font-black uppercase tracking-[0.5em] text-[10px]">Founded 2024 / Headquartered Nowhere</p>
-            </footer>
+            {/* FOOTER HIDDEN - USING GLOBAL FOOTER */}
         </main>
     );
 }
