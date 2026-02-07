@@ -203,7 +203,7 @@ export default function DeepV2Page() {
                                 <div className="p-4 border-l-2 border-[#ff3e00] bg-[#0a0a0a] font-mono text-[10px] text-[#444]">
                                     POST_PROCESS(exchange_log) <br />
                                     UPDATE relationship_trust_score += delta <br />
-                                    IF insight_value > threshold: CRYSTALLIZE_MEMORY
+                                    IF insight_value &gt; threshold: CRYSTALLIZE_MEMORY
                                 </div>
                             </div>
                             <div className="md:col-span-7 flex justify-center">
