@@ -10,7 +10,7 @@ export default function CorporateNavbar() {
                 GEMDYNAMICS<span className="text-[#ff3e00]">.</span>
             </Link>
             
-            <div className="flex gap-8 text-[10px] font-black uppercase tracking-[0.3em] text-[#666] pointer-events-auto">
+            <div className="flex gap-10 text-[11px] font-black uppercase tracking-[0.2em] text-[#888] pointer-events-auto">
                 <Link href="/deep-v1" className="hover:text-white transition-colors">D.E.E.P. V1</Link>
                 <Link href="/deep-v2" className="hover:text-white transition-colors">D.E.E.P. V2</Link>
                 <Link href="/deep-v3" className="hover:text-white transition-colors">D.E.E.P. V3</Link>
