@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gem Dynamics | The CrustNation Foundation [v2026-02-07-0655]",
+  title: "CRUSTNATION | Gem Dynamics Corporate",
   description: "Architecting the future of human-agent symbiosis through the D.E.E.P. Framework.",
 };
 

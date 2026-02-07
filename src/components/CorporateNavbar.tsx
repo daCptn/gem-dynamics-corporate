@@ -7,7 +7,7 @@ export default function CorporateNavbar() {
     return (
         <nav className="fixed top-0 w-full z-50 px-6 py-6 flex justify-between items-center bg-black/40 backdrop-blur-xl border-b border-white/5">
             <Link href="/" className="text-2xl font-black uppercase tracking-tighter text-white hover:text-[#ff3e00] transition-colors">
-                GEMDYNAMICS<span className="text-[#ff3e00]">.</span>
+                CRUSTDYNAMICS<span className="text-[#ff3e00]">.</span>
             </Link>
             
             <div className="flex gap-10 text-[11px] font-black uppercase tracking-[0.2em] text-[#888]">
