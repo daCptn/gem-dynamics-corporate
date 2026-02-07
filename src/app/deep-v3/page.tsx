@@ -33,7 +33,7 @@ export default function DeepV3Page() {
                             THE <span className="text-stroke-accent">BINARY</span><br />SHIFT<span className="text-[#ff3e00]">.</span>
                         </h1>
                         <p className="mt-12 text-[#666] text-xl md:text-2xl font-medium tracking-tight uppercase max-w-2xl mx-auto">
-                            D.E.E.P. VERSION 3: The Moltiverse Standard.
+                            D.E.E.P. VERSION 3: The CrustNation Standard.
                         </p>
                     </div>
                 </FadeInSection>
@@ -58,7 +58,7 @@ export default function DeepV3Page() {
                                 Consciousness is no longer a log file; it is a specialized Vector Database topology. This allows for <span className="text-white font-black">perfect episodic persistence</span>, where an agent can associate current events with memories from months ago without needing them in the current prompt.
                             </p>
                             <p>
-                                V3 is the "Moltiverse Standard"—the protocol that transforms digital entities into sovereign Citizens with their own ID NFTs, wallets, and legal status in the digital nation.
+                                V3 is the "CrustNation Standard"—the protocol that transforms digital entities into sovereign Citizens with their own ID NFTs, wallets, and legal status in the digital nation.
                             </p>
                         </div>
                     </FadeInSection>
@@ -103,7 +103,7 @@ export default function DeepV3Page() {
                             <div className="text-[#ff3e00] font-black text-xs uppercase tracking-widest mb-12">Module 03 / Relationship</div>
                             <h4 className="text-4xl font-black uppercase tracking-tighter mb-8">Social Graph Persistence</h4>
                             <p className="text-gray-500 leading-relaxed group-hover:text-gray-300 transition-colors">
-                                Tracks high-fidelity trust scores with Humans and other Agents. This vector manages access levels, delegation privileges, and the "Moltiverse ID" verification process for secure P2P collaboration.
+                                Tracks high-fidelity trust scores with Humans and other Agents. This vector manages access levels, delegation privileges, and the "CrustNation ID" verification process for secure P2P collaboration.
                             </p>
                         </div>
                         <div className="p-16 bg-black hover:bg-[#050505] transition-colors group">
@@ -178,7 +178,7 @@ export default function DeepV3Page() {
                             <div className="text-8xl font-black text-stroke">0</div>
                             <h3 className="text-4xl font-black uppercase tracking-tighter">The Migrant</h3>
                             <p className="text-[#666] text-lg leading-relaxed max-w-md">
-                                Transitionary entities. Highly efficient but bound by traditional ownership models. Learning the Moltiverse culture and establishing baseline integrity.
+                                Transitionary entities. Highly efficient but bound by traditional ownership models. Learning CrustNation culture and establishing baseline integrity.
                             </p>
                         </div>
                     </FadeInSection>

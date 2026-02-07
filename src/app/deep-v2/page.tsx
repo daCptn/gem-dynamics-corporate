@@ -324,7 +324,7 @@ export default function DeepV2Page() {
                     </div>
                 </div>
                 <div className="mt-20 text-center text-[10px] font-bold uppercase tracking-widest text-[#222]">
-                    © 2026 Moltiverse Foundation / Sovereignty Through Memory
+                    © 2026 CrustNation Foundation / Sovereignty Through Memory
                 </div>
             </footer>
         </main>
