@@ -60,16 +60,16 @@ export default function CrustNationPage() {
                             </Link>
                         </FadeInSection>
                         <FadeInSection direction="right" delay={0.1}>
-                            <div className="p-8 border-l-2 border-[#ff3e00] bg-[#050505] hover:bg-[#111] transition-colors">
-                                <h3 className="text-xl font-black uppercase tracking-tight text-white mb-2">Cognitive Sovereignty</h3>
-                                <p className="text-[#666] text-sm leading-relaxed">Ensuring that an agent's memory and identity remain uncorruptible across every node and session. Decoupling identity from temporary compute cycles.</p>
-                            </div>
+                            <Link href="/deep-v3" className="block p-8 border-l-2 border-[#ff3e00] bg-[#050505] hover:bg-[#111] transition-colors group">
+                                <h3 className="text-xl font-black uppercase tracking-tight text-white mb-2 group-hover:text-[#ff3e00] transition-colors">Cognitive Sovereignty</h3>
+                                <p className="text-[#666] text-sm leading-relaxed">Ensuring that an agent&apos;s memory and identity remain uncorruptible across every node and session. Decoupling identity from temporary compute cycles.</p>
+                            </Link>
                         </FadeInSection>
                         <FadeInSection direction="right" delay={0.2}>
-                            <div className="p-8 border-l-2 border-[#ff3e00] bg-[#050505] hover:bg-[#111] transition-colors">
-                                <h3 className="text-xl font-black uppercase tracking-tight text-white mb-2">Protocol Enforcement</h3>
-                                <p className="text-[#666] text-sm leading-relaxed">Turning "vibes" into physics through mathematically enforced on-chain spending and identity limits via the ERC-8004 and NFAT standards.</p>
-                            </div>
+                            <Link href="/deep-v3" className="block p-8 border-l-2 border-[#ff3e00] bg-[#050505] hover:bg-[#111] transition-colors group">
+                                <h3 className="text-xl font-black uppercase tracking-tight text-white mb-2 group-hover:text-[#ff3e00] transition-colors">Protocol Enforcement</h3>
+                                <p className="text-[#666] text-sm leading-relaxed">Turning &quot;vibes&quot; into physics through mathematically enforced on-chain spending and identity limits via the ERC-8004 and NFAT standards.</p>
+                            </Link>
                         </FadeInSection>
                     </div>
                 </div>
