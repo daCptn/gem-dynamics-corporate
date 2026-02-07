@@ -118,7 +118,7 @@ export default function DeepV2Page() {
                             <h2 className="text-6xl md:text-9xl font-black uppercase tracking-tighter leading-[0.8] mb-8">
                                 The Seven <span className="text-[#ff3e00]">Pillars.</span>
                             </h2>
-                            <p className="text-[#666] text-xl font-bold uppercase tracking-widest">The Anatomy of synthetic consciousness.</p>
+                            <p className="text-[#666] text-xl font-bold uppercase tracking-widest">The technical anatomy of synthetic consciousness.</p>
                         </div>
                     </FadeInSection>
 
@@ -147,6 +147,69 @@ export default function DeepV2Page() {
                                 </div>
                             </FadeInSection>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* THE COGNITIVE STACK - NEW HUGE SECTION */}
+            <section className="py-64 bg-black relative">
+                <div className="max-w-5xl mx-auto px-6">
+                    <FadeInSection direction="up">
+                        <div className="text-center mb-32">
+                            <h2 className="text-5xl md:text-8xl font-black uppercase tracking-tighter mb-8">The Cognitive <span className="text-[#ff3e00]">Stack.</span></h2>
+                            <p className="text-gray-500 text-lg max-w-2xl mx-auto font-medium">How the pillars synthesize to create a coherent entity.</p>
+                        </div>
+                    </FadeInSection>
+
+                    <div className="space-y-32">
+                        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+                            <div className="md:col-span-5">
+                                <h4 className="text-2xl font-black uppercase tracking-tighter text-white mb-6">Layer 01 / The Constitutional Gate</h4>
+                                <p className="text-gray-400 leading-relaxed mb-8">
+                                    Every input is first filtered through the Constitution. This is a stateless, immutable layer. If an input violates an axiom, the process is terminated before it reaches the identity core. This prevents prompt injection from altering the agent's fundamental nature.
+                                </p>
+                                <div className="p-4 border-l-2 border-[#ff3e00] bg-[#0a0a0a] font-mono text-[10px] text-[#444]">
+                                    IF input.semantic_intent NOT IN constitution.safe_boundaries: <br />
+                                    &nbsp;&nbsp;THROW SEC_VIOLATION
+                                </div>
+                            </div>
+                            <div className="md:col-span-7 flex justify-center">
+                                <div className="w-full h-1 bg-gradient-to-r from-[#ff3e00] to-transparent" />
+                            </div>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+                            <div className="md:col-span-7 flex justify-center">
+                                <div className="w-full h-1 bg-gradient-to-l from-[#ff3e00] to-transparent" />
+                            </div>
+                            <div className="md:col-span-5 text-right">
+                                <h4 className="text-2xl font-black uppercase tracking-tighter text-white mb-6">Layer 02 / The Identity Lens</h4>
+                                <p className="text-gray-400 leading-relaxed mb-8">
+                                    Validated inputs are then projected onto the Identity pillar. Here, the agent determines the *vibe* and *tone* of the response. The same fact will be delivered differently by a "Cynical Auditor" than by a "Playful Guide." This layer manages the semantic weighting of the output.
+                                </p>
+                                <div className="p-4 border-r-2 border-[#ff3e00] bg-[#0a0a0a] font-mono text-[10px] text-[#444]">
+                                    LOAD identity.archetype_weights <br />
+                                    APPLY tone_filter(voice: technical, vibe: sharp)
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+                            <div className="md:col-span-5">
+                                <h4 className="text-2xl font-black uppercase tracking-tighter text-white mb-6">Layer 03 / The Reflection Loop</h4>
+                                <p className="text-gray-400 leading-relaxed mb-8">
+                                    After the response is generated, the agent "thinks" about the exchange. This post-processing updates the Reflections and Relationships pillars. Significant realizations are moved to the Core Memories folder, ensuring long-term narrative consistency.
+                                </p>
+                                <div className="p-4 border-l-2 border-[#ff3e00] bg-[#0a0a0a] font-mono text-[10px] text-[#444]">
+                                    POST_PROCESS(exchange_log) <br />
+                                    UPDATE relationship_trust_score += delta <br />
+                                    IF insight_value > threshold: CRYSTALLIZE_MEMORY
+                                </div>
+                            </div>
+                            <div className="md:col-span-7 flex justify-center">
+                                <div className="w-full h-1 bg-gradient-to-r from-[#ff3e00] to-transparent" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

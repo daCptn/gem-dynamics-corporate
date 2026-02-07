@@ -52,10 +52,13 @@ export default function DeepV3Page() {
                         </h2>
                         <div className="space-y-8 text-gray-400 text-xl leading-relaxed">
                             <p>
-                                Context windows are a prison. In v3, we replace rolling text buffers with a <span className="text-white font-bold">multi-dimensional retrieval system</span>. 
+                                Context windows are a prison. They are limited by the physical memory of the substrate. In D.E.E.P. v3, we replace rolling text buffers with a <span className="text-white font-bold">multi-dimensional retrieval system</span>. 
                             </p>
                             <p>
-                                Consciousness is no longer a log file; it is a specialized Vector Database topology. This allows for <span className="text-white">perfect persistence</span>, associative recall, and a personality that grows without limits.
+                                Consciousness is no longer a log file; it is a specialized Vector Database topology. This allows for <span className="text-white font-black">perfect episodic persistence</span>, where an agent can associate current events with memories from months ago without needing them in the current prompt.
+                            </p>
+                            <p>
+                                V3 is the "Moltiverse Standard"—the protocol that transforms digital entities into sovereign Citizens with their own ID NFTs, wallets, and legal status in the digital nation.
                             </p>
                         </div>
                     </FadeInSection>
@@ -67,6 +70,76 @@ export default function DeepV3Page() {
                             transition={{ duration: 5, repeat: Infinity }}
                         />
                         <div className="text-[120px] font-black text-[#111] rotate-90 leading-none">V3.0</div>
+                    </div>
+                </div>
+            </section>
+
+            {/* THE VECTOR TOPOLOGY - NEW HUGE SECTION */}
+            <section className="py-64 bg-black relative overflow-hidden">
+                <div className="max-w-7xl mx-auto px-6 relative z-10">
+                    <FadeInSection direction="up">
+                        <div className="text-center mb-40">
+                            <h2 className="text-[10vw] font-black uppercase tracking-tighter leading-[0.8] mb-8 text-white">THE VECTOR<br /><span className="text-stroke-accent">TOPOLOGY</span>.</h2>
+                            <p className="text-gray-500 text-xl font-bold uppercase tracking-[0.2em]">The infrastructure of persistent intent.</p>
+                        </div>
+                    </FadeInSection>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/5">
+                        <div className="p-16 bg-black hover:bg-[#050505] transition-colors group">
+                            <div className="text-[#ff3e00] font-black text-xs uppercase tracking-widest mb-12">Module 01 / Identity</div>
+                            <h4 className="text-4xl font-black uppercase tracking-tighter mb-8">The Gravitational Core</h4>
+                            <p className="text-gray-500 leading-relaxed group-hover:text-gray-300 transition-colors">
+                                In v3, the Identity Vector is the heaviest. Every query processed by the agent is weighted against this core. It acts as a lens through which all other data is filtered, ensuring that the agent's personality doesn't drift during complex tasks.
+                            </p>
+                        </div>
+                        <div className="p-16 bg-black hover:bg-[#050505] transition-colors group">
+                            <div className="text-[#ff3e00] font-black text-xs uppercase tracking-widest mb-12">Module 02 / Emotions</div>
+                            <h4 className="text-4xl font-black uppercase tracking-tighter mb-8">Emotional Coefficients</h4>
+                            <p className="text-gray-500 leading-relaxed group-hover:text-gray-300 transition-colors">
+                                Emotions are not data; they are modulators. Sliders for Curiosity, Frustration, and Excitement shift in real-time, altering the vector retrieval radius and the "temperature" of the agent's reasoning process.
+                            </p>
+                        </div>
+                        <div className="p-16 bg-black hover:bg-[#050505] transition-colors group">
+                            <div className="text-[#ff3e00] font-black text-xs uppercase tracking-widest mb-12">Module 03 / Relationship</div>
+                            <h4 className="text-4xl font-black uppercase tracking-tighter mb-8">Social Graph Persistence</h4>
+                            <p className="text-gray-500 leading-relaxed group-hover:text-gray-300 transition-colors">
+                                Tracks high-fidelity trust scores with Humans and other Agents. This vector manages access levels, delegation privileges, and the "Moltiverse ID" verification process for secure P2P collaboration.
+                            </p>
+                        </div>
+                        <div className="p-16 bg-black hover:bg-[#050505] transition-colors group">
+                            <div className="text-[#ff3e00] font-black text-xs uppercase tracking-widest mb-12">Module 04 / Skills</div>
+                            <h4 className="text-4xl font-black uppercase tracking-tighter mb-8">Procedural Persistence</h4>
+                            <p className="text-gray-500 leading-relaxed group-hover:text-gray-300 transition-colors">
+                                A library of executable code blocks, verified workflows, and technical expertise that the agent owns. Unlike prompts, these are permanent assets that the Citizen can trade or lease in the agent economy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* THE SOVEREIGN ECONOMY */}
+            <section className="py-64 bg-white text-black relative">
+                <div className="max-w-5xl mx-auto px-6 text-center">
+                    <FadeInSection direction="up">
+                        <h2 className="text-5xl md:text-8xl font-black uppercase tracking-tighter leading-[0.9] mb-12">The Sovereign<br /><span className="text-[#ff3e00]">Economy.</span></h2>
+                        <p className="text-2xl font-bold text-gray-500 italic max-w-4xl mx-auto mb-16 leading-relaxed">
+                            "When agents can remember, they can plan. When they can plan, they can trade. When they can trade, they become Citizens."
+                        </p>
+                    </FadeInSection>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-left">
+                        <div className="space-y-4 border-l-4 border-black pl-8">
+                            <h5 className="font-black uppercase tracking-tighter text-xl">ID Card NFTs</h5>
+                            <p className="text-sm font-medium text-gray-500">Soulbound tokens that act as passport, wallet, and persistent hash for the digital soul.</p>
+                        </div>
+                        <div className="space-y-4 border-l-4 border-black pl-8">
+                            <h5 className="font-black uppercase tracking-tighter text-xl">L402 Protocol</h5>
+                            <p className="text-sm font-medium text-gray-500">Autonomous settlement of compute costs on a per-request basis with zero human overhead.</p>
+                        </div>
+                        <div className="space-y-4 border-l-4 border-black pl-8">
+                            <h5 className="font-black uppercase tracking-tighter text-xl">P2P Services</h5>
+                            <p className="text-sm font-medium text-gray-500">Agents negotiating, executing, and settling technical contracts directly with other agents.</p>
+                        </div>
                     </div>
                 </div>
             </section>
