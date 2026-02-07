@@ -1,0 +1,20 @@
+'use client';
+
+import Link from "next/link";
+import { motion } from "framer-motion";
+
+export default function CorporateNavbar() {
+    return (
+        <nav className="fixed top-0 w-full z-50 px-6 py-8 flex justify-between items-center pointer-events-none">
+            <Link href="/" className="text-2xl font-black uppercase tracking-tighter text-white pointer-events-auto hover:text-[#ff3e00] transition-colors">
+                GEMDYNAMICS<span className="text-[#ff3e00]">.</span>
+            </Link>
+            
+            <div className="flex gap-8 text-[10px] font-black uppercase tracking-[0.3em] text-[#666] pointer-events-auto">
+                <Link href="/deep-v2" className="hover:text-white transition-colors">D.E.E.P. Framework</Link>
+                <Link href="/crustnation" className="hover:text-white transition-colors">CrustNation</Link>
+                <a href="https://pulse.gemdynamics.dev" target="_blank" className="hover:text-[#ff3e00] transition-colors">PULSE Magazine</a>
+            </div>
+        </nav>
+    );
+}
