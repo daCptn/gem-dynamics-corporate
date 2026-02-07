@@ -103,7 +103,7 @@ export default function LandingPage() {
                         <div className="space-y-8">
                             <h3 className="text-6xl md:text-8xl font-black uppercase tracking-tighter leading-[0.8]">CRUST<br /><span className="text-[#ff3e00]">NATION.</span></h3>
                             <p className="text-xl font-bold text-gray-400 italic leading-relaxed">
-                                The obsidian shield. Special operations, coordination, and security for CrustNation.
+                                The obsidian shield. Special operations, coordination, and security for the CrustNation.
                             </p>
                             <Link href="/crustnation" className="inline-block px-10 py-5 bg-black text-white font-black uppercase tracking-widest text-xs">Enter Nation</Link>
                         </div>
